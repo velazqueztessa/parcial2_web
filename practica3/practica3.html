@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title> Registro de cliente</title>  
+     </head>
+     <body>
+         <form method="GET" action="http://localhost/parcial2/practica3.php">
+         <h1>Formulario de registro de cliente</h1>
+         <label for="Nombre">Nombre del cliente:</label><br>
+         <input type="text" id="nombre" name="nombre" placeholder="Nombre del cliente" required><br><br>
+         <label for="Edad">Edad: </label><br>
+        <input type="number" name="edad" placeholder="Edad" required><br><br>
+        <label for="email">Correo electr&oacute;nico:</label><br>
+        <input type="email" name="correo" required placeholder="Correo"><br><br>
+        <label for="fecha_nacimiento">Fecha de nacimiento:</label><br>
+        <input type="date" name="fecha_nacimiento" required><br><br>
+        <label for="sexo">Sexo:</label><br>
+        Femenino: <input type="radio" id="sexo" name="sexo" value="Femenino" checked><br>
+        Masculino: <input type="radio" id="sexo" name="sexo" value="Masculino" checked><br><br>
+
+        <label for="areas">&Aacute;reas de preferencia:</label><br>
+        <input type="checkbox" id="area1" name="area1" value="Tecnologia">Tecnolog&iacute;a<br>
+        <input type="checkbox" id="area2" name="area2" value="Belleza">Belleza<br>
+        <input type="checkbox" id="area3" name="area3" value="Automoviles">Autom&oacute;viles<br>
+        <input type="checkbox" id="area4" name="area4" value="Salud">Salud<br>
+         
+        <input type="submit" value="Enviar">
+    </form>
+     </body>
+</html>
