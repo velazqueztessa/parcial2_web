@@ -7,6 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Comfortaa:wght@700&family=Lobster&family=Monoton&display=swap" rel="stylesheet"> 
 </head>
 <body>
+<h1>Nombre: Velazquez Rodriguez Tessa Airam 5AVP</h1><br>
     <form class="resul">
         <?php
 echo "<h1>RESULTADOS:</h1> <br>";
