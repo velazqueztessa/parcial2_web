@@ -3,6 +3,7 @@
         <title>PRACTICA 3</title>
 </head>
 <body>
+<h1>Nombre: Velazquez Rodriguez Tessa Airam 5AVP</h1>
 <?php
 $nombre = $_GET['nombre'];
 echo "El nombre del cliente es: <br> " . $nombre;
