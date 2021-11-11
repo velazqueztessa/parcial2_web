@@ -18,7 +18,7 @@
 		);
 	?>
 	<h1>Tabla de registros</h1><hr>
-	<table>
+	<table border=1>
 		<thead>
 			<tr>
 				<td>ID</td>
