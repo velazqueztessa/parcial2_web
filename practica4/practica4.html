@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EX&Aacute;MEN</title>
+    <link rel="stylesheet" type="text/css" href="practica4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Lobster&family=Monoton&display=swap" rel="stylesheet">
+</head>
+<body >
+<form  class="examen" method="get" action="http://localhost/parcial2/practica4.php">
+    <h1>EX&Aacute;MEN</h1>
+    <label for="nombre">Nombre del alumno:</label>
+    <input type="text" name="nombre" placeholder="Nombre del alumno" required><br><br>
+
+    <label for="p1">1. &iquest;Cu&aacute;ntos países hay en el continente Americano?</label><br><br>
+    <div><input type="radio" name="p1" value="35 países">35 países<br>
+    <input type="radio" name="p1" value="36 países">36 países<br>
+    <input type="radio" name="p1" value="45 países" required>45 países<br><br><br></div>
+
+    <label for="p2">2. &iquest;Cu&aacute;l es el oc&eacute;ano m&aacute;s grande del mundo?</label><br><br>
+    <div><input type="radio" name="p2" value="Océano Aléantico">Océano Aléantico<br>
+    <input type="radio" name="p2" value="Océano Índico">Océano Índico<br>
+    <input type="radio" name="p2" value="Océano Pacífico"required>Océano Pacífico<br><br><br></div>
+
+    <label for="p3">3. &iquest;Cu&aacute;ntos huesos tiene el cuerpo humano?</label><br><br>
+    <div><input type="radio" name="p3" value="106 huesos">106 huesos<br>
+    <input type="radio" name="p3" value="206 huesos">206 huesos<br>
+    <input type="radio" name="p3" value="226 huesos"required>226 huesos</div><br><br>
+
+    <label for="p4"> 4. Paul McCartney formaba parte del grupo llamado </label>
+    <input type="text" name="p4" required>.<br><br>
+
+    <label for="p5"> 5. El  <input type="text" name="p5" required>es la moneda con la que pagas en Japón.</label><br><br>
+
+    <label for="p6"> 6. La <input type="text" name="p6" required>es el libro más vendido de la historia.</label><br><br>
+
+    <label for="p7">7. Selecciona 2 colores primarios: </label><br><br>
+    <div><input type="checkbox" name="p7[]" value="Azul">Azul<br>
+    <input type="checkbox" name="p7[]" value="Rosa">Rosa<br>
+    <input type="checkbox" name="p7[]" value="Amarillo">Amarillo<br>
+    <input type="checkbox" name="p7[]" value="Café">Café<br>
+    <input type="checkbox" name="p7[]" value="Morado">Morado</div><br><br>
+
+    <label for="p8">8. Son 2 de las 7 maravillas del mundo moderno:</label><br><br>
+   <div> <input type="checkbox" name="p8[]" value="Machu Picchu">Machu Picchu<br>
+    <input type="checkbox" name="p8[]" value="La Gran Pirámide de Giza">La Gran Pirámide de Giza<br>
+    <input type="checkbox" name="p8[]" value="La Catedral de San Basilio">La Catedral de San Basilio<br>
+    <input type="checkbox" name="p8[]" value="Coliseo de Roma">Coliseo de Roma<br>
+    <input type="checkbox" name="p8[]" value="Teotihuacán">Teotihuacán</div><br><br>
+
+    <label for="p9">9. Son 2 elementos de un átomo: </label><br><br>
+   <div><input type="checkbox" name="p9[]" value="Citoplasma">Citoplasma<br>
+    <input type="checkbox" name="p9[]" value="Corteza">Corteza<br>
+    <input type="checkbox" name="p9[]" value="Neutrones">Neutrones<br>
+    <input type="checkbox" name="p9[]" value="Células">Células<br>
+    <input type="checkbox" name="p9[]" value="Electrones">Electrones</div><br><br>
+ 
+    <label for="p10">10. El <input type="text" name="p10" required>es el único mamífero que puede volar.</label><br><br>
+
+    <input type="submit" name="submit" value="ENVIAR">
+
+</form>
+</body>
+</html>

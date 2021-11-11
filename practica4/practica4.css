@@ -1,0 +1,52 @@
+body{
+    background:salmon;
+}
+h2{
+    font-family: 'Lobster', cursive;
+
+}
+form.resul{
+background:palevioletred;
+}
+h3{
+    font-family: 'Comfortaa', cursive;
+}
+   
+h1{
+    text-align: center;
+    font-family: 'Monoton', cursive;
+}
+div{
+    font-family: 'Balsamiq Sans', cursive;
+}
+form{
+    width: 25%;
+    border:yellow 3px solid;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background: lavender;
+    }
+.examen{
+background-image: url("cultg.jpeg")
+}
+label{
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+    display:inline;
+    width: 200%;
+}
+input[type="submit"]{
+    margin-bottom: 0;
+    background:lavenderblush;
+    color: indianred;
+    border: none;
+}
+input[type="submit"]:hover{
+background: khaki;
+cursor: pointer;
+}
+
